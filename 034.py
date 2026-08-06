@@ -1,0 +1,8 @@
+#sum of digit
+n = int(input("Enter a number: "))
+sum = 0
+while n > 0:
+    digit = n % 10
+    sum += digit
+    n //= 10
+print(f"The sum of the digits in the number is {sum}.")
