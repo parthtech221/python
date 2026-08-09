@@ -1,0 +1,4 @@
+#decimal to binary
+decimal = int(input("Enter a decimal number: "))
+binary = bin(decimal)[2:]
+print("The binary equivalent is:", binary)
